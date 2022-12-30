@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+
+<body>
+    <div style="margin: 70px;" class="wrapper m-4">
+        <!-- Main content -->
+        <section class="invoice">
+            <div class="box-body">
+
+
+                <div class="header">
+                    <img src="http://172.16.0.10/Images/logo-sign.jpg" style="width:60px;height:60px;margin-right:10px; background-color: #555;" />
+                    <h4 style="font-size:20px;padding-top:10px;"> SINACO ENGINEERS (PVT) LIMITED</h4>
+                    <h5 style="float:right;margin-top:-10px;">27-December-2022
+                    </h5>
+                    <h5 style="font-size:15px;font-style:italic"><b>Site Demand</b></h5>
+                </div>
+                <div class="row" style="border:1px solid black">
+                    <div class="col-xs-6 col-md-4">
+                        <p> <b>Project </b> : NFL Main Building </p>
+
+                        <p><b> Created By </b>: administrator</p>
+
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <p> <b> Demand no </b>: SD-84-2022-00007</p>
+                        <p> <b> Date </b>: 27-December-2022</p>
+                    </div>
+
+                </div>
+                <br>
+                <table class="table table-striped table-bordered table-middle" id="logbookreporting">
+
+                    <thead>
+
+
+
+                        <tr>
+
+                            <th>Month</th>
+                            <th>Total Travel [KM]</th>
+                            <th>Expense Amont</th>
+                            <th>Expense Per KM</th>
+                            <th>Fuel Expense Per KM</th>
+                            <th>Milage Per Liter of Petrol</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>Jan-22</td>
+                            <td>100025</td>
+                            <td> 1252</td>
+                            <td>3253 </td>
+                            <td> 1253</td>
+                            <td>18 </td>
+                            
+                        </tr>                          
+                        <tr>
+                            <td>Feb-22</td>
+                            <td>100025</td>
+                            <td> 1252</td>
+                            <td>3253 </td>
+                            <td> 1253</td>
+                            <td>18 </td>
+                            
+                        </tr>                          
+                        <tr>
+                            <td>Mar-22</td>
+                            <td>100025</td>
+                            <td> 1252</td>
+                            <td>3253 </td>
+                            <td> 1253</td>
+                            <td>18 </td>
+                            
+                        </tr>                          
+                        <tr>
+                            <td>Apr-22</td>
+                            <td>100025</td>
+                            <td> 1252</td>
+                            <td>3253 </td>
+                            <td> 1253</td>
+                            <td>18 </td>
+                            
+                        </tr>                          
+                        <tr>
+                            <td>May-22</td>
+                            <td>100025</td>
+                            <td> 1252</td>
+                            <td>3253 </td>
+                            <td> 1253</td>
+                            <td>18 </td>
+                            
+                        </tr>                          
+                        <tr>
+                            <td>Jun-22</td>
+                            <td>100025</td>
+                            <td> 1252</td>
+                            <td>3253 </td>
+                            <td> 1253</td>
+                            <td>18 </td>
+                            
+                        </tr>                          
+                       
+                    </tbody>
+                    <!-- <tfoot>
+                        <tr>
+                            <th>Total</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th>@String.Format("{0:n0}", total_amount)</th>
+                        </tr>
+                    </tfoot> -->
+                </table>
+
+
+            </div>
+
+
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- ./wrapper -->
+    <script src="~/Scripts/bower_components/jquery/dist/jquery.min.js"></script>
+    <script>
+        function round(value, decimals) {
+            return Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
